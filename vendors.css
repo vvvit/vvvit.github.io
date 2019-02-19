@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+.Icon {
+    display: inline-block;
+    background: no-repeat center;
+    background-size: contain;
+}
+
+    .Icon_size_s {
+            width: 18px;
+            height: 18px;
+        }
+
+    .Icon_size_m {
+            width: 24px;
+            height: 24px;
+        }
+
+    .Icon_type_arrow-down {
+            background-image: url(/_/arrow-down.svg);
+        }
+
+    .Icon_type_arrow-up {
+            background-image: url(/_/arrow-down.svg);
+            -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                    transform: rotate(180deg);
+        }
+
+.CurrencySelect {
+    position: relative;
+    font-size: 42px;
+}
+
+.CurrencySelect-Value {
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 120px;
+    }
+
+.CurrencySelect-List {
+        border: 1px solid #d8d8d8;
+        border-bottom: 0;
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        left: -5px;
+        top: -5px;
+    }
+
+.CurrencySelect-ListItem {
+        padding: 4px;
+        border-bottom: 1px solid #d8d8d8;
+        cursor: pointer;
+    }
+
+.CurrencySelect-ListItem_selected, .CurrencySelect-ListItem:hover {
+            background: #f4f4f4;
+        }
+
+.PriceInput-Input {
+        width: 100%;
+        font-size: 42px;
+        text-align: right;
+        outline: 0;
+        border: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background: transparent;
+    }
+
+.CurrencyCard {
+    padding: 70px 24px;
+}
+
+.CurrencyCard_type_buy {
+            background-color: #f4f4f4;
+            border-top: 1px solid #d8d8d8;
+        }
+
+.CurrencyCard-Row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+.CurrencyCard-Row_justify_between {
+                -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                        justify-content: space-between;
+            }
+
+.CurrencyCard-CardInfo {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #929292;
+    }
+
+.CurrencyCard-Info_negative {
+        color: #e4409e;
+    }
+
+.Rate {
+    position: relative;
+}
+
+.Rate-Value {
+        padding: 10px 14px;
+        background: #fff;
+        display: inline;
+        font-size: 16px;
+        border: 1px solid #d8d8d8;
+        border-radius: 20px;
+        color: #156edb;
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+.Rate-Value_error {
+            color: #e4409e;
+        }
+
+.Application {
+    width: 500px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 13px;
+
+    margin: 0;
+    padding: 0;
+
+    color: #333;
+}button::-moz-focus-inner {
+    border: 0;
+}
+
